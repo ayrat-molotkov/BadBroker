@@ -4,6 +4,9 @@ A BadBroker determines what will be the best income when selling / buying curren
 
 To get rates used service https://exchangeratesapi.io/
 
+Please note that you need to fill the HTDC_API_KEY env variable with a private key.
+Also you need to fill the HTDC_EXCHANGE_RATES_ENDPOINT env variable with a service endpoint.
+
 Example Request and Response
 
 curl -X GET
